@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta del Clima</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="weather-container">
+    <h1>Esta es mi aplicación del clima</h1>
+    <form id="weatherForm">
+        <input type="text" id="cityInput" name="city" placeholder="Pon el nombre de la ciudad" required>
+        <button type="button" id="currentWeatherBtn" class="current-weather-btn">Ver el clima actual de la ciudad</button>
+        <button type="button" id="forecastBtn" class="forecast-btn">Ver el pronóstico</button>
+    </form>
+    <div id="weatherResult"></div>
+    <div id="forecastResult" class="forecast-container"></div>
+</div>
+
+<script src="js/clima.js"></script>
+</body>
+</html>
